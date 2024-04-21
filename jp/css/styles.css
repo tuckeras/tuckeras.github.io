@@ -10973,29 +10973,11 @@ section.resume-section .resume-section-content {
 
 rt {
   font-size: 12px;
-}
-
-ruby .meaning {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  position: absolute;
-  z-index: 1;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-ruby:hover .meaning {
-  visibility: visible;
+  color: rgb(0,0,128);
 }
 
 dfn {
   color: rgb(0,0,128);
   text-decoration: underline;
+  padding-right: 4px;
 }
